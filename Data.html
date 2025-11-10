@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		input[type=text]:focus,input[type=password]:focus{
+			background-color: gold;
+			outline: none;
+		}
+		.me{
+			background-color: f1f1f1;
+			padding: 20px;
+		} 
+		.you{
+			background-color: lightblue;
+			padding: 20px;
+			outline: 1px;
+		}
+		.hr{
+			outline: 20px solid # f1f1f1;
+		}
+	</style>
+	<title>students data</title>
+</head>
+<body style="background-color: lightcyan;">
+	<header style="text-align: center;">
+		<img src="Picture1.png" style="height: 150px;width: 200px; background-color: white; color: white;border-radius: 50px;padding-bottom: 0px;">
+	<h1 style=" background-color: blue; color: white;padding-top: 0px;">HANEX NURSERY AND PRIMARY SCHOOL KOBOKO, P.O.BOX 12345 KOBOKO</h1>
+	</header>
+	<form style="text-align: center;">
+		<h2 style="background-color: dimgrey; color:white;">INSTITUTION INFORMATION</h2>
+		<label>Institution name</label>
+		<input type="text" placeholder="Institution name" name="Institution name"><br><br>
+		<label>District</label>
+		<input type="text" placeholder="District" name="District"><br><br>
+		<label>Sub-county</label>
+		<input type="text" placeholder="Sub-county" name="Sub-county"><br><br>
+		<label>Class enrolled</label>
+		<input type="text" placeholder="Class enrolled" name="Class enrolled"><br><br>
+		<label>Term</label>
+		<input type="text" placeholder="Term" name="Term">
+	</form><br><br>
+	<h3 style="background-color: navy; color: white;">Education level(Tick one)</h3>
+	<div class="you">
+	<form>
+		<h4>Nursery section</h4>
+		<label>Baby class</label>
+		<input type="checkbox" name="gender">
+		<label>Middle class</label>
+		<input type="checkbox" name="gender">
+		<label>Middle class</label>
+		<input type="checkbox" name="gender">
+		<hr>
+		
+	
+		<h4>Primary section</h4>
+			<p>Lower class<p>
+		
+		<label>Primary one</label>
+		<input type="checkbox" name="gender"><br>
+		<label>Primary Two<label>
+		<input type="checkbox" name="gender"><br>
+		<label>Primary Three</label>
+		<input type="checkbox" name="gender"><br>
+		<hr>
+		<h4>Upper class</h4>
+	
+		<label>Primary Four</label>
+		<input type="checkbox" name="gender"><br>
+		<label>Primary Five</label>
+		<input type="checkbox" name="gender"><br>
+		<label>Primary Six</label>
+		<input type="checkbox" name="gender"><br>
+		<label>Primary Seven</label>
+		<input type="checkbox" name="gender"><br>
+	    </form>
+        </div>
+	<h3 style="background-color: navy; color: white;">SECTION B: LEARNERS BASIC INFORMATION</h3>
+	<label>First name</label>
+		<input type="text" placeholder="First name" name="First name">
+		<label>Surname</label>
+		<input type="text" placeholder="Surname" name="Surname">
+		<label>Othername</label>
+		<input type="text" placeholder="Othername" name="Othername">
+		<label>Class enrolled</label>
+		<input type="text" placeholder="Class enrolled" name="Class enrolled"><br><br>
+		<label>Nationality</label>
+		<input type="text" placeholder="Nationality" name="Nationality">
+		<label>NIN</label>
+		<input type="text" placeholder="NIN" name="NIN">
+		<label>District of birth</label>
+		<input type="text" placeholder="District of birth" name="District of birth">
+		<label>DOB</label>
+		<input type="text" placeholder="DOB" name="DOB"><br><br>
+		<input type="radio" value="Male"name="gender" checked>Male
+	<input type="radio" value="Female"name="gender" checked>Female
+		<form>
+			<h3 style="background-color: navy; color: white;">SECTION C: PARENT/GUARDIAN INFORMATION</h3>
+			<div class="me">
+			<h4 style="color: navy;">FATHER/GUARDIAN DETAILS</h4>
+	    <label>First name</label>
+		<input type="text" placeholder="First name" name="First name">
+		<label>Surname</label>
+		<input type="text" placeholder="Surname" name="Surname">
+		<label>Othername</label>
+		<input type="text" placeholder="Othername" name="Othername">
+		<label>Class enrolled</label>
+		<input type="text" placeholder="Class enrolled" name="Class enrolled"><br><br>
+		<label>Nationality</label>
+		<input type="text" placeholder="Nationality" name="Nationality">
+		<label>NIN</label>
+		<input type="text" placeholder="NIN" name="NIN">
+		<label>Mobile phone</label>
+		<input type="text" placeholder="Mobile phone" name="Mobile phone"><br>
+		<hr>
+		<h4 style="color: navy;">MOTHER/GUARDIAN DETAILS</h4>
+	<label>First name</label>
+		<input type="text" placeholder="First name" name="First name">
+		<label>Surname</label>
+		<input type="text" placeholder="Surname" name="Surname">
+		<label>Othername</label>
+		<input type="text" placeholder="Othername" name="Othername">
+		<label>Class enrolled</label>
+		<input type="text" placeholder="Class enrolled" name="Class enrolled"><br><br>
+		<label>Nationality</label>
+		<input type="text" placeholder="Nationality" name="Nationality">
+		<label>NIN</label>
+		<input type="text" placeholder="NIN" name="NIN">
+		<label>Mobile phone</label>
+		<input type="text" placeholder="Mobile phone" name="Mobile phone">
+	</div><br>
+		<h4 style="color: navy;">DECLARATION</h4>
+		<p>I hereby declare that all the above information is trua and accurate</p><br><br><br>
+		<label>Signed by</label>
+		<input type="text" name="Date" placeholder="date">                
+		<label>Date</label><input type="text"name="Date" placeholder="date"><br><br>
+		<input type="radio" value="Male"name="gender" checked>Male
+	<input type="radio" value="Female"name="gender" checked>Female<br><br><br>
+	<<<<a href="Home page.html" style="background-color:lightgreen;">BACK</a><br><br>
+
+	<a href="subject.html">SUBJECTS OFFERED</a>>>>
+	
+		</form><br><br>
+
+		<marquee behavior="alternate" direction="right">EDUCATION MANAGEMENT DEPARTMENT&copy 2025</marquee>
+		
+
+</body>
+</html>
